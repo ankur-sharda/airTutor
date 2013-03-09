@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36ead047-cd3b-4930-a741-bbe7adcc80e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/uc/excanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/uc/orbiterboot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/Views/sessionWithWhiteboard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/uc/ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/union-collaborator.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/uc/unionchat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/uc/uniondraw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/uc/userlist.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/Save.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Account.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Views.java" afterPath="$PROJECT_DIR$/app/controllers/Views.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Views/session.html" afterPath="$PROJECT_DIR$/app/views/Views/session.html" />
     </list>
     <ignored path="airTutor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +18,7 @@
     <file path="/tutor.html" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362841715674" ignored="false" />
     <file path="/Do.java" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362840288423" ignored="false" />
     <file path="/StudentTest.java" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362839997331" ignored="false" />
-    <file path="/session.html" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362841736386" ignored="false" />
+    <file path="/session.html" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362845189808" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,13 +86,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Views.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Views.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/Views.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="426" selection-end="426" vertical-scroll-proportion="0.8021978">
+            <state line="26" column="0" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoChat.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/Views/VideoChat.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="28" selection-start="259" selection-end="278" vertical-scroll-proportion="-6.1666665">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -146,20 +143,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="session.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="session.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/Views/session.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="58" selection-start="1212" selection-end="1212" vertical-scroll-proportion="-13.291667">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/models/StudentTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="132" selection-end="517" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="87" column="0" selection-start="3933" selection-end="3933" vertical-scroll-proportion="0.25170067">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,15 +167,6 @@
         <entry file="file://$PROJECT_DIR$/app/models/Student.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="82" column="1" selection-start="1940" selection-end="1940" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DaoTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/dao/DaoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="26" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -222,9 +203,9 @@
         <option value="$PROJECT_DIR$/app/models/Student.java" />
         <option value="$PROJECT_DIR$/app/views/Views/student.html" />
         <option value="$PROJECT_DIR$/app/views/Views/tutor.html" />
-        <option value="$PROJECT_DIR$/app/views/Views/session.html" />
         <option value="$PROJECT_DIR$/app/views/Application/index.html" />
         <option value="$PROJECT_DIR$/app/controllers/Views.java" />
+        <option value="$PROJECT_DIR$/app/views/Views/session.html" />
       </list>
     </option>
   </component>
@@ -758,7 +739,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -773,7 +754,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -843,15 +824,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/Session.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Ask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.16483517">
@@ -894,13 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/models/StudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="132" selection-end="517" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Do.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="12" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
@@ -918,13 +883,6 @@
     <entry file="file://$PROJECT_DIR$/app/models/Tutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Views/session.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="58" selection-start="1212" selection-end="1212" vertical-scroll-proportion="-13.291667">
           <folding />
         </state>
       </provider>
@@ -962,9 +920,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Views.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="426" selection-end="426" vertical-scroll-proportion="0.8021978">
+        <state line="26" column="0" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/models/StudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="132" selection-end="517" vertical-scroll-proportion="0.1978022">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Views/VideoChat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="259" selection-end="278" vertical-scroll-proportion="-6.1666665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Views/session.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="0" selection-start="3933" selection-end="3933" vertical-scroll-proportion="0.25170067">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
