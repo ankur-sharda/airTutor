@@ -50,7 +50,6 @@ public class Tutor {
 	public void delete() {
 		Datastore ds = Dao.instance().getDatabase();
 		ds.delete(ds.createQuery(Tutor.class).field("email").equal(email));
-
 	}
 
 	public static List<Tutor> listAll() {
