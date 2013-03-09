@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36ead047-cd3b-4930-a741-bbe7adcc80e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dao/DaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/models/StudentTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/uc/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/uc/orbiterboot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/Views/sessionWithWhiteboard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/uc/ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/union-collaborator.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/uc/unionchat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/uc/uniondraw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/uc/userlist.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/Save.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/Account.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Do.java" afterPath="$PROJECT_DIR$/app/controllers/Do.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Student.java" afterPath="$PROJECT_DIR$/app/models/Student.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Views.java" afterPath="$PROJECT_DIR$/app/controllers/Views.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/airTutor.iml" afterPath="$PROJECT_DIR$/airTutor.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/dependencies.yml" afterPath="$PROJECT_DIR$/conf/dependencies.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/index.html" afterPath="$PROJECT_DIR$/app/views/Application/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Views/session.html" afterPath="$PROJECT_DIR$/app/views/Views/session.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Views/student.html" afterPath="$PROJECT_DIR$/app/views/Views/student.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Views/tutor.html" afterPath="$PROJECT_DIR$/app/views/Views/tutor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="airTutor.iws" />
@@ -91,11 +89,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="4" selection-start="2100" selection-end="2100" vertical-scroll-proportion="0.92511016">
+            <state line="25" column="21" selection-start="1413" selection-end="1413" vertical-scroll-proportion="36.25">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Views.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Views.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="426" selection-end="426" vertical-scroll-proportion="0.8021978">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -208,7 +217,6 @@
         <option value="$PROJECT_DIR$/conf/routes" />
         <option value="$PROJECT_DIR$/app/controllers/Ask.java" />
         <option value="$PROJECT_DIR$/conf/dependencies.yml" />
-        <option value="$PROJECT_DIR$/app/controllers/Views.java" />
         <option value="$PROJECT_DIR$/test/models/StudentTest.java" />
         <option value="$PROJECT_DIR$/app/controllers/Do.java" />
         <option value="$PROJECT_DIR$/app/models/Student.java" />
@@ -216,6 +224,7 @@
         <option value="$PROJECT_DIR$/app/views/Views/tutor.html" />
         <option value="$PROJECT_DIR$/app/views/Views/session.html" />
         <option value="$PROJECT_DIR$/app/views/Application/index.html" />
+        <option value="$PROJECT_DIR$/app/controllers/Views.java" />
       </list>
     </option>
   </component>
@@ -749,7 +758,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -764,7 +773,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -871,13 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Views.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="43" selection-start="275" selection-end="275" vertical-scroll-proportion="0.3451883">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conf/routes">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="56" selection-start="469" selection-end="469" vertical-scroll-proportion="0.37656903">
@@ -953,8 +955,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="4" selection-start="2100" selection-end="2100" vertical-scroll-proportion="0.92511016">
+        <state line="25" column="21" selection-start="1413" selection-end="1413" vertical-scroll-proportion="36.25">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Views.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="426" selection-end="426" vertical-scroll-proportion="0.8021978">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
