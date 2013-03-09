@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/morphia-1.00-20110403.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mongo-2.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/play-morphia.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

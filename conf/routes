@@ -4,6 +4,15 @@
 
 # Home page
 GET     /                                       Application.index
+
+GET     /student                                Views.student
+GET     /tutor                                  Views.tutor
+GET     /session                                Views.session
+
+POST    /do/signup                              Do.signup
+POST    /do/login                               Do.login
+
+
 GET 	/VideoChat								Views.VideoChat
 
 # Ignore favicon requests
