@@ -58,7 +58,10 @@
 				document.body.appendChild(div);
 
 				// Subscribe to the stream
-				session.subscribe(streams[i], div.id);
+				var subscriberProps = {width: 720, 
+                        height: 680, 
+                        subscribeToAudio: true};
+				session.subscribe(streams[i], div.id,subscriberProps);
 			}
 		}
 	</script>
