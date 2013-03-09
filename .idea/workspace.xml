@@ -18,7 +18,7 @@
     <file path="/tutor.html" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362841715674" ignored="false" />
     <file path="/Do.java" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362840288423" ignored="false" />
     <file path="/StudentTest.java" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362839997331" ignored="false" />
-    <file path="/session.html" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362845189808" ignored="false" />
+    <file path="/session.html" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362845316559" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +146,7 @@
       <file leaf-file-name="session.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/Views/session.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="0" selection-start="3933" selection-end="3933" vertical-scroll-proportion="0.25170067">
+            <state line="9" column="97" selection-start="611" selection-end="611" vertical-scroll-proportion="0.30612245">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -943,7 +943,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Views/session.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="3933" selection-end="3933" vertical-scroll-proportion="0.25170067">
+        <state line="9" column="97" selection-start="611" selection-end="611" vertical-scroll-proportion="0.30612245">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
