@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36ead047-cd3b-4930-a741-bbe7adcc80e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bg/black_mamba.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bg/debut_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bg/debut_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bg/gray_jean.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bg/nasty_fabric.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bg/retina_wood.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Account.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/Ask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/Create.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/Do.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/Save.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Session.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Tutor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/airTutor.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/Views/session.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/site.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/Views/student.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/Views/tutor.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/play-morphia.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Views.java" afterPath="$PROJECT_DIR$/app/controllers/Views.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/index.html" afterPath="$PROJECT_DIR$/app/views/Application/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="airTutor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,10 +73,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Account.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Account.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.10302198">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,19 +87,10 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="64" selection-start="3884" selection-end="3884" vertical-scroll-proportion="-20.0">
+            <state line="29" column="9" selection-start="1452" selection-end="1452" vertical-scroll-proportion="13.791667">
               <folding>
                 <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/conf/routes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="56" selection-start="469" selection-end="469" vertical-scroll-proportion="0.24725275">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -160,8 +125,8 @@
         <option value="$PROJECT_DIR$/app/models/Tutor.java" />
         <option value="$PROJECT_DIR$/app/models/Student.java" />
         <option value="$PROJECT_DIR$/app/models/Account.java" />
-        <option value="$PROJECT_DIR$/app/views/Application/index.html" />
         <option value="$PROJECT_DIR$/conf/routes" />
+        <option value="$PROJECT_DIR$/app/views/Application/index.html" />
       </list>
     </option>
   </component>
@@ -725,28 +690,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Account.java">
+    <entry file="file://$PROJECT_DIR$/conf/routes">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="12" column="56" selection-start="469" selection-end="469" vertical-scroll-proportion="0.24725275">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="64" selection-start="3884" selection-end="3884" vertical-scroll-proportion="-20.0">
+        <state line="29" column="9" selection-start="1452" selection-end="1452" vertical-scroll-proportion="13.791667">
           <folding>
             <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/routes">
+    <entry file="file://$PROJECT_DIR$/app/models/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="56" selection-start="469" selection-end="469" vertical-scroll-proportion="0.24725275">
-          <folding />
+        <state line="5" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.10302198">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
