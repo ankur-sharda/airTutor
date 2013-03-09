@@ -8,6 +8,7 @@ GET     /                                       Application.index
 GET     /student                                Views.student
 GET     /tutor                                  Views.tutor
 GET     /session                                Views.session
+GET     /session2                               Views.sessionWithWhiteboard
 
 POST    /do/signup                              Do.signup
 POST    /do/login                               Do.login

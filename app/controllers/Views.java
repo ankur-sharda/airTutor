@@ -17,6 +17,10 @@ public class Views extends Controller {
     public static void session(){
          render();
     }
+    
+    public static void sessionWithWhiteboard(){
+        render();
+   }
 
 
 }
