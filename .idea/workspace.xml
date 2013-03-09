@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36ead047-cd3b-4930-a741-bbe7adcc80e0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Views.java" afterPath="$PROJECT_DIR$/app/controllers/Views.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Views/session.html" afterPath="$PROJECT_DIR$/app/views/Views/session.html" />
     </list>
     <ignored path="airTutor.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362838305226" ignored="false" />
-    <file path="/Views.java" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362821150332" ignored="false" />
-    <file path="/routes" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362823156875" ignored="false" />
+    <file path="/Views.java" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362845686002" ignored="false" />
+    <file path="/routes" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362845756969" ignored="false" />
     <file path="/index.html" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362841862675" ignored="false" />
     <file path="/Session.java" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362822773275" ignored="false" />
     <file path="/Account.java" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362822770390" ignored="false" />
@@ -18,7 +20,7 @@
     <file path="/tutor.html" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362841715674" ignored="false" />
     <file path="/Do.java" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362840288423" ignored="false" />
     <file path="/StudentTest.java" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362839997331" ignored="false" />
-    <file path="/session.html" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362845316559" ignored="false" />
+    <file path="/session.html" changelist="36ead047-cd3b-4930-a741-bbe7adcc80e0" time="1362847316227" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +91,7 @@
       <file leaf-file-name="Views.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/Views.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
+            <state line="25" column="17" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,10 +99,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="routes" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/routes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="75" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="VideoChat.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/Views/VideoChat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="28" selection-start="259" selection-end="278" vertical-scroll-proportion="-6.1666665">
+            <state line="68" column="54" selection-start="2605" selection-end="2616" vertical-scroll-proportion="-5.58">
               <folding />
             </state>
           </provider>
@@ -146,9 +157,14 @@
       <file leaf-file-name="session.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/Views/session.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="97" selection-start="611" selection-end="611" vertical-scroll-proportion="0.30612245">
+            <state line="75" column="35" selection-start="3181" selection-end="3181" vertical-scroll-proportion="0.33333334">
               <folding>
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -195,7 +211,6 @@
         <option value="$PROJECT_DIR$/app/models/Session.java" />
         <option value="$PROJECT_DIR$/app/models/Tutor.java" />
         <option value="$PROJECT_DIR$/app/models/Account.java" />
-        <option value="$PROJECT_DIR$/conf/routes" />
         <option value="$PROJECT_DIR$/app/controllers/Ask.java" />
         <option value="$PROJECT_DIR$/conf/dependencies.yml" />
         <option value="$PROJECT_DIR$/test/models/StudentTest.java" />
@@ -205,6 +220,7 @@
         <option value="$PROJECT_DIR$/app/views/Views/tutor.html" />
         <option value="$PROJECT_DIR$/app/views/Application/index.html" />
         <option value="$PROJECT_DIR$/app/controllers/Views.java" />
+        <option value="$PROJECT_DIR$/conf/routes" />
         <option value="$PROJECT_DIR$/app/views/Views/session.html" />
       </list>
     </option>
@@ -325,46 +341,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="airTutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="airTutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="airTutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="airTutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -729,6 +705,24 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="36ead047-cd3b-4930-a741-bbe7adcc80e0" name="Default" comment="" />
@@ -754,8 +748,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.7002652" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29973474" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -852,13 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/routes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="56" selection-start="469" selection-end="469" vertical-scroll-proportion="0.37656903">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/dao/DaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="26" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
@@ -918,15 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Views.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/models/StudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="132" selection-end="517" vertical-scroll-proportion="0.1978022">
@@ -934,18 +912,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="75" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Views.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="17" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Views/VideoChat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="259" selection-end="278" vertical-scroll-proportion="-6.1666665">
+        <state line="68" column="54" selection-start="2605" selection-end="2616" vertical-scroll-proportion="-5.58">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Views/session.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="97" selection-start="611" selection-end="611" vertical-scroll-proportion="0.30612245">
+        <state line="75" column="35" selection-start="3181" selection-end="3181" vertical-scroll-proportion="0.33333334">
           <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

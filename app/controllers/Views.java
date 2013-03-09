@@ -22,5 +22,9 @@ public class Views extends Controller {
         render();
     }
 
+    public static void VideoChat(){
+        render();
+    }
+
 
 }
