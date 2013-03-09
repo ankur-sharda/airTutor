@@ -24,11 +24,12 @@
 		// Initialize session, set up event listeners, and connect
 		var session = TB.initSession(sessionId);
 		function startStreaming() {
-
 			session.addEventListener('sessionConnected',
 					sessionConnectedHandler);
 			session.addEventListener('streamCreated', streamCreatedHandler);
 			session.connect(apiKey, token);
+			
+			document.getElementById('initSession').style.visibility='hidden';
 		}
 
 		function sessionConnectedHandler(event) {
@@ -62,6 +63,6 @@
 		}
 	</script>
 
-	<button onclick="startStreaming()">Click me</button>
+	<button onclick="startStreaming()" id="initSession">Click me</button>
 </body>
 </html>
