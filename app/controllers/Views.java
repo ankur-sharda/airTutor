@@ -6,7 +6,7 @@ import play.mvc.Controller;
 
 public class Views extends Controller {
 	
-	 public static void videoChat() {
+	 public static void VideoChat() {
 	        render();
 	    }
 
