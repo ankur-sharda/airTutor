@@ -4,6 +4,7 @@
 
 # Home page
 GET     /                                       Application.index
+GET     /videochat.html/                        staticDir:public/html/videochat.html
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
