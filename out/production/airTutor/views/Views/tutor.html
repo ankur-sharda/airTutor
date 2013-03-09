@@ -17,33 +17,36 @@
     </script>
 </head>
 <body>
-<div id="header">
 <table align="center" cellspacing="0" cellpadding="0"width="85%">
-        <tr>
-            <td width="33%"><div id="logoSmall"><a href="/" class="logolink">airtutor</a></div></td>
-            <td width="33%">
+    <tr>
+        <td width="33%"><div id="logoSmall"><a href="/" class="logolink">airtutor</a></div></td>
+        <td width="33%">
 
-            </td>
-            <td width="33%" align="right">Hi Gary | <a href="">Logout</a></td>
-        </tr>
-    </table>
-</div>
+        </td>
+        <td width="33%" align="right">Hi ${tutor.name} | <a href="/do/logout">Logout</a></td>
+    </tr>
+</table>
 <div class="clear"></div>
 <div style="margin-top:48px;width:85%;margin:48px auto;">
-    <div style="width:24%;float:left;">
-
-        <p><img src="http://placehold.it/250x200"></p>
-        <p>Session started: 9:45 pm</p>
-        <p>Session duration: 8:45 min</p>
-        <p>Total cost: $2.75 ($35/hr)</p>
-
+    <h2>My Students</h2>
+    <div id="tutor" style="float:left;margin-top:48px;border:1px solid #CCC;padding:24px;border-radius: 4px;">
+        <div style="float:left;">
+            <img src="http://placehold.it/65x65" style="margin-right:24px;">
+        </div>
+        <div style="float:left">
+            <h3>Pete Pan</h3>
+            <p style="color:#666;">online</p>
+            <input type="button" value="Accept Session" class="btn btn-large"/>
+            <p>Pete has requested a session.</p>
+        </div>
+        <div class="clear"></div>
     </div>
 
-    <div style="width:74%;float:left;">
-        <p><img src="http://placehold.it/750x600"></p>
-        <div style="float:right"><input type="button" class="btn" value="End session"/></div>
-    </div>
+</div>
+<div class="clear"/>
 
+<div style="margin-top:48px;width:85%;margin:48px auto;">
+<p>&nbsp;</p><h3 style="color:#666;">Activity Log</h3>
 </div>
 </div>
 <div class="clear"></div>

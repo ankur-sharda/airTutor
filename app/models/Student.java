@@ -8,6 +8,7 @@ import com.google.code.morphia.Datastore;
 import com.google.code.morphia.annotations.Id;
 
 import daos.Dao;
+import utils.p;
 
 public class Student {
 
@@ -48,7 +49,6 @@ public class Student {
 	public void delete() {
 		Datastore ds = Dao.instance().getDatabase();
 		ds.delete(ds.createQuery(Student.class).field("email").equal(email));
-
 	}
 
 	public static List<Student> listAll() {
@@ -58,15 +58,26 @@ public class Student {
 
 	public static Student login(String em, String pa) {
 		Datastore ds = Dao.instance().getDatabase();
-		Student acct = ds.find(Student.class).field("email").equal(em)
-				.field("password").equal(pa).get();
-		if (acct != null) {
-			System.out.println("acct!=null");
-			return acct;
-		} else {
-			System.out.println("acct==null");
-			return null;
-		}
+		Student student = ds.find(Student.class).field("email").equal(em).field("password").equal(pa).get();
+        if(student!=null){
+            return student;
+        }
+        else{
+p.rint("student is null");
+            return null;
+        }
 	}
+
+    public void addTutor(String email){
+        Tutor tutor = Tutor.read(email);
+        if(tutor!=null){
+           this.tutors.add(tutor);
+           this.save();
+        }
+        else{
+p.rint("Tutor is Null in addTutor");
+        }
+
+    }
 
 }

@@ -9,24 +9,22 @@ public class Do extends Controller {
 
 	public static void login(String email, String password) {
 		Student student = new Student();
-		if (student.login(email, password) != null) {
-p.rint(email+" - "+password);
-			session.put("loggedIn", "true");
+
+        Tutor tutor = new Tutor();
+        if ((student = student.login(email, password))!=null) {
+            session.put("loggedIn", "true");
 			session.put("accountName", "STUDENT");
-			 Views.student(student);
+			Views.student(student);
 		} else {
-			Tutor tutor = new Tutor();
-			if (tutor.login(email, password) != null) {
-p.rint(email+" - "+password);
-				session.put("loggedIn", "true");
-				session.put("accountName", Constants.TUTOR);
-p.rint(tutor.name);
-				 Views.tutor(tutor);
-			} else {
-				Application.index();
-			}
-		}
-	}
+        if ((tutor = tutor.login(email, password)) != null) {
+		    session.put("loggedIn", "true");
+			session.put("accountName", Constants.TUTOR);
+			Views.tutor(tutor);
+		} else {
+			Application.index();
+		    }
+	    }
+    }
 
 
 	public static void logout() {
