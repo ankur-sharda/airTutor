@@ -4,7 +4,7 @@
 
 # Home page
 GET     /                                       Application.index
-GET 	/VideoChat								Views.VideoChat
+GET 	/videoChat								Views.videoChat
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
