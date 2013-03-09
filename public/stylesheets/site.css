@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{		
+
+}
+
+@font-face {
+    font-family: "Damion";
+    src: url("../font/Damion-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "FontAwesome";
+    src: url('../font/fontawesome-webfont.eot');
+    src: url('../font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/fontawesome-webfont.woff') format('woff'),
+    url('../font/fontawesome-webfont.ttf') format('truetype'),
+    url('../font/fontawesome-webfont.svg#FontAwesome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#header{
+	margin:0px auto;
+	height:56px;
+	border-bottom:1px solid #CCC;
+    background:#EEE;
+	
+	}
+
+#header-container{
+	margin:0px auto;
+	}
+
+#logo {
+	float:left;
+	color:white;
+	background:navy;
+	padding:46px 26px 26px 26px;
+	font-family: "Palatino Linotype","Book Antiqua",Palatino,serif;
+	font-size:54px;
+	font-weight:800;
+  	-webkit-box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, .75);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, .75);
+	box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, .75);
+    margin-top:24px;
+}
+
+#logoSmall {
+    float:left;
+    color:white;
+    background:navy;
+    padding:23px 13px 13px 13px;
+    font-family: "Palatino Linotype","Book Antiqua",Palatino,serif;
+    font-size:27px;
+    font-weight:800;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, .75);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, .75);
+    box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, .75);
+    margin-top:24px;
+}
+
+#logo-container{
+	float:left;
+	height:100%;
+	}
+
+#logoSmall-container{
+    float:left;
+    height:100%;
+    width:90%;
+}
+
+#search{
+	padding:60px 0px 12px 0px;
+	margin:0px auto;
+	text-align:center;
+	border-bottom:1px solid #CCC; 
+	background:url("/public/images/bg/debut_light.png");
+}
+
+#main{
+	padding:20px 0px 60px 0px;
+	margin:0px auto;
+}
+
+#callout{
+	background:#FFF;
+	padding:24px 0px 0px 0px;
+}
+
+#headline {
+	color:#666;
+ 	padding:24px;
+    font-size: 2.4em;
+	text-align:center;
+}
+
+#spiel{
+ 	color:#333;
+	padding:0xp 24px 24px 24px;
+    font-size: 1.4em;
+	text-align:center;  
+}
+
+#content{
+	margin:0px auto;
+	text-align:center;
+	margin-bottom:48px;
+	width:75%;	
+}
+
+#footer{
+	background:url("images/bg/black_mamba.png");
+	padding:24px;
+	font-size:small;
+	color:#FFF;
+}
+
+.clear{
+	clear:both;
+}
+
+.border{
+	border:1px solid #666;
+}
+
+
+.whitelink{
+	color:#fff;
+}
+
+.whitelink:over{
+	color:#fff;
+}
+
+.logolink{
+	color:#fff;
+	text-decoration:none;
+}
+
+.logolink:hover{
+	color:#fff;
+	text-decoration:none;
+}
