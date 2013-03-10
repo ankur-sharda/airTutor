@@ -21,7 +21,6 @@
                  $("#frmEditTutorDetails").slideToggle();
             });
 
-
         });
     </script>
 </head>
@@ -61,10 +60,11 @@
         <p>Before you can receive help requests you will need to complete the following.</p>
         <div id="frmEditTutorDetails">
           <form action="/edit/tutor" method="post">
-              <input type="hidden" value="${tutor.id}" name="tutorId"/>
-            <p>Key:<br/> <input type="text" value="" name="key"/></p>
-            <p>Rate:<br/> <input type="text" value="" name="rate" class="span1"/> ($/50 min)</p>
-            <p>Mobile:<br/> <input type="text" value="" name="mobile"/></p>
+            <p>Name: ${tutor.name}</p>
+            <p>Email: ${tutor.email}</p>
+            <p>Key: ${tutor.key}</p>
+            <p>Rate: ${tutor.rate}</p>
+            <p>Mobile: ${tutor.mobile}</p>
           </form>
         </div>
     </div>

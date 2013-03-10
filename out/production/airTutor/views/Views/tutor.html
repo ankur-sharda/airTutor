@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Airtutor - get help from your tutor immediately.
@@ -14,13 +14,24 @@
     <script src="/public/javascripts/jquery.masonry.min.js" type="text/javascript"></script>
     <script src="/public/javascripts/bootstrap.min.js" type="text/javascript"></script>
     <script type="text/javascript">
+        $(document).ready(function(){
+
+        $("#frmEditTutorDetails").hide();
+            $("#btnEditTutorDetails").click(function(){
+                 $("#frmEditTutorDetails").slideToggle();
+            });
+
+
+        });
     </script>
 </head>
 <body>
 <div id="header">
 <table align="center" cellspacing="0" cellpadding="0"width="85%">
     <tr>
-        <td width="33%"><div id="logoSmall"><a href="/" class="logolink">airtutor</a></div></td>
+        <td width="33%"><div id="logoSmall"><a href="/" class="logolink">
+            <img src="/public/images/airtutor-logo-Final.png" height="120" width="100"/>
+        </a></div></td>
         <td width="33%">
 
         </td>
@@ -31,21 +42,34 @@
 <div class="clear"></div>
 <div style="margin-top:48px;width:85%;margin:48px auto;">
     <h2>My Students</h2>
-    <div id="tutor" style="float:left;margin-top:48px;border:1px solid #CCC;padding:24px;border-radius: 4px;">
+    <div id="tutor" style="float:left;margin:48px 48px 0px 0px;border:1px solid #CCC;padding:24px;border-radius: 4px;">
         <div style="float:left;">
             <img src="http://placehold.it/65x65" style="margin-right:24px;">
         </div>
         <div style="float:left">
             <h3>Pete Pan</h3>
             <p style="color:#666;">online</p>
-            <input type="button" value="Accept Session" class="btn btn-large"/>
+            <form action="/session" method="get"><input type="submit" value="Accept Session" class="btn btn-large"/></form>
             <p>Pete has requested a session.</p>
         </div>
         <div class="clear"></div>
     </div>
 
+    <div style="float:right;width:22%;border-radius:4px;border:1px solid #ccc;padding:24px;">
+        <input type="button" value="Edit My Details" class="btn-link" style="float:right;" id="btnEditTutorDetails"/>
+        <div class="clear"/>
+        <p>Before you can receive help requests you will need to complete the following.</p>
+        <div id="frmEditTutorDetails">
+          <form action="/edit/tutor" method="post">
+            <p>Name: ${tutor.name}</p>
+            <p>Email: ${tutor.email}</p>
+            <p>Key: ${tutor.key}</p>
+            <p>Rate: ${tutor.rate}</p>
+            <p>Mobile: ${tutor.mobile}</p>
+          </form>
+        </div>
+    </div>
 </div>
-<div class="clear"/>
 
 </div>
 <div class="clear"></div>

@@ -20,6 +20,8 @@ public class Tutor {
 	public String name;
 	public String email;
 	public String password;
+    public String key;
+    public String mobile;
 
 	public ObjectId save() {
 
@@ -37,9 +39,9 @@ public class Tutor {
 		return ds.find(Tutor.class).field("id").equal(id).get();
 	}
 
-	public static Tutor read(String email) {
+	public static Tutor read(String key) {
 		Datastore ds = Dao.instance().getDatabase();
-		return ds.find(Tutor.class).field("email").equal(email).get();
+		return ds.find(Tutor.class).field("key").equal(key).get();
 	}
 
 	public static void deleteAll() {

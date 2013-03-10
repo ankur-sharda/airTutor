@@ -13,6 +13,8 @@ GET     /session2                               Views.sessionWithWhiteboard
 POST    /do/signup                              Do.signup
 POST    /do/login                               Do.login
 
+POST    /update/addtutor                             Update.addtutor
+
 
 GET 	/VideoChat								Views.VideoChat
 

@@ -30,6 +30,11 @@
                       $("#pilTutor").toggleClass("active");
                       $("#pilStudent").toggleClass("active");
                 });
+
+          $("#frmExtraInputs").hide();
+          $("#inputName").click(function(){
+                $("#frmExtraInputs").fadeIn();
+          });
           });
       </script>
    </head>
@@ -39,13 +44,20 @@
             <tr>
                <td width="33%"></td>
                <td width="33%">
-                  <div id="logo"><a href="/" class="logolink">airtutor</a></div>
+                  <div id="logo"><a href="/" class="logolink">
+                      <img src="/public/images/airtutor-logo-Final.png" width="283" height="200"/>
+                  </a></div>
                </td>
                <td width="33%"></td>
             </tr>
+             <tr><td>&nbsp;</td></td>&nbsp;</td><td>&nbsp;</td></tr>
          </table>
+       <p>&nbsp;</p>
+       <p>&nbsp;</p>
+       <p>&nbsp;</p>
+       <p>&nbsp;</p>
     </div>
-      <div id="callout">
+      <div id="callout" style="margin-top:120px">
       	<p>&nbsp;</p>
          <p id="headline">An investment in education always pays the best dividend.</p>
       </div>
@@ -72,6 +84,30 @@
                              <input type="text" id="inputEmail" placeholder="Your email" name="tutor.email">
                          </div>
                      </div>
+
+                     <div id="frmExtraInputs">
+                     <div class="control-group">
+                         <label class="control-label" for="inputKey">Key</label>
+                         <div class="controls">
+                             <input type="text" id="inputKey" placeholder="Your Key" name="tutor.key">
+                         </div>
+                     </div>
+
+                     <div class="control-group">
+                         <label class="control-label" for="inputMobile">Mobile</label>
+                         <div class="controls">
+                             <input type="text" id="inputMobile" placeholder="Your mobile" name="tutor.mobile">
+                         </div>
+                     </div>
+
+                     <div class="control-group">
+                         <label class="control-label" for="inputRate">Rate/hr</label>
+                         <div class="controls">
+                             <input type="text" id="inputRate" placeholder="$/hr" name="tutor.rate" class="span1">
+                         </div>
+                     </div>
+             </div>
+
                      <div class="control-group">
                          <label class="control-label" for="inputPassword">Password</label>
                          <div class="controls">

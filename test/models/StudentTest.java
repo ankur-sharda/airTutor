@@ -16,7 +16,12 @@ public class StudentTest {
 
     @Test
     public void testReadById(){
-        Student s = Student.read(new ObjectId("513b25917257733d08a92eaa"));
+        Student s = Student.read("test@test1.com");
         assertNotNull(s);
+    }
+
+    @Test
+    public void testAddTutor(){
+
     }
 }

@@ -1,5 +1,6 @@
 package models;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.bson.types.ObjectId;
@@ -18,7 +19,7 @@ public class Student {
 	public String name;
 	public String email;
 	public String password;
-	public List<Tutor> tutors;
+	public List<String> tutorKeys = new ArrayList<String>();
 
 	public ObjectId save() {
 
@@ -68,16 +69,5 @@ p.rint("student is null");
         }
 	}
 
-    public void addTutor(String email){
-        Tutor tutor = Tutor.read(email);
-        if(tutor!=null){
-           this.tutors.add(tutor);
-           this.save();
-        }
-        else{
-p.rint("Tutor is Null in addTutor");
-        }
-
-    }
 
 }
